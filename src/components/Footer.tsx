@@ -1,3 +1,4 @@
+
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { 
@@ -19,17 +20,15 @@ const Footer = () => {
   ];
 
   const quickLinks = [
-    { name: "Menu", href: "/menu" },
-    { name: "About Us", href: "/about" },
-    { name: "Gallery", href: "/gallery" },
-    { name: "Contact", href: "/contact" },
-    { name: "Reservations", href: "/reservations" }
+    { name: "Menu", href: "#menu" },
+    { name: "About Us", href: "#about" },
+    { name: "Contact", href: "#contact" },
+    { name: "Reservations", href: "#contact" }
   ];
 
   const services = [
     { name: "Dine In", href: "#" },
     { name: "Takeaway", href: "#" },
-    { name: "Delivery", href: "#" },
     { name: "Catering", href: "#" },
     { name: "Private Events", href: "#" }
   ];
